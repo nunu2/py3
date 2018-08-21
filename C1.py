@@ -15,7 +15,7 @@ while True:
             for op in ops:
                 if (op.type == 13):
                     cl.acceptGroupInvitation(op.param1)
-                    cl.sendMessage(op.param1,'สวัสดีฉันชื่อน้องสุ ฉันจะมา ยกเลิกค้างเชิน นะจ่ะๆ..')
+                    cl.sendMessage(op.param1,'สวัสดีฉันชื่อ༄۞ꪶꪶꪣꪫꪊุ۞࿐\n ฉันจะมา ยกเลิกค้างเชิน นะจ่ะๆ..')
                     cl.sendMessage(op.param1,'cancelling~')
                 if (op.type == 25):
                     msg = op.message
@@ -32,7 +32,7 @@ while True:
                                 cl.cancelGroupInvitation(msg.to,[mid])
                             except Exception as e:
                                 pass
-                        cl.sendMessage(msg.to,'ยกเชินเสร็จแล้ว จ๊ะ!\nline://ti/p/~nunu_kap123')
+                        cl.sendMessage(msg.to,'ยกเชินเสร็จแล้ว จ๊ะ!\n@IDLINEด้านล่างเลยจ่ะ!\nline://ti/p/~nunu_kap123')
                         cl.leaveGroup(msg.to)
                 poll.setRevision(op.revision)
     except Exception as e:
